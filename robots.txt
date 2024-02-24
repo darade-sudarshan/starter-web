@@ -1,4 +1,8 @@
 # robotstxt.org/
 
 User-agent: *
+<<<<<<< Updated upstream
 a
+=======
+UserName:
+>>>>>>> Stashed changes

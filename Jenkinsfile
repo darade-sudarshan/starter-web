@@ -26,7 +26,7 @@ pipeline {
         stage('Running image') {
             steps {
                 script {
-                    sh "docker run -dit -p 8084:80 --name ${containerName} ${imagename}:my-simple-app /bin/bash"
+                    sh "docker run -dit -p 8084:80 --name ${containerName} ${imagename}:my-simple-webapp /bin/bash"
                     // Perform any additional steps needed while the container is running
                 }
             }

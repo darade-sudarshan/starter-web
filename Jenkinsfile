@@ -25,7 +25,7 @@ pipeline {
         stage('Deploy Image') {
             steps {
                 script {
-		      sh "ansible-playbook -u vagrant -i ansible/inventory  ansible/deploy-docker.yml"
+		      sh "ansible-playbook -i ansible/inventory  ansible/deploy-docker.yml"
                     }
                 }
             }

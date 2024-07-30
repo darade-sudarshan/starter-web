@@ -1,2 +1,2 @@
-target1 ansible_host=192.168.56.62 ansible_ssh_user=vagrant ansible_ssh_private_key_file=/home/einfochips/.ssh/id_rsa
-target2 ansible_host=192.168.56.63 ansible_ssh_user=vagrant ansible_ssh_private_key_file=/home/einfochips/.ssh/id_rsa
+target1 ansible_host=192.168.56.62 ansible_ssh_user=vagrant ansible_ssh_private_key_file=/home/einfochips/.ssh/id_rsa.pub
+target2 ansible_host=192.168.56.63 ansible_ssh_user=vagrant ansible_ssh_private_key_file=/home/einfochips/.ssh/id_rsa.pub
